@@ -5,8 +5,41 @@
     <title>Memory</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
   </head>
   <body>
-    <!-- insert html here! -->
+    <div class="container">
+      <!-- <div class="card" data-id="1"><span>1</span></div>
+      <div class="card" data-id="2"><span>2</span></div>
+      <div class="card" data-id="3"><span>3</span></div>
+      <div class="card" data-id="4"><span>4</span></div>
+      <div class="card" data-id="5"><span>5</span></div>
+      <div class="card" data-id="1"><span>1</span></div>
+      <div class="card" data-id="2"><span>2</span></div>
+      <div class="card" data-id="3"><span>3</span></div>
+      <div class="card" data-id="4"><span>4</span></div>
+      <div class="card" data-id="5"><span>5</span></div> -->
+    </div>
   </body>
 </html>
+
+<!-- $('.card').click(function() {
+  $(this + 'span').show();
+  $(this).addClass('clicked');
+  if ($('.clicked').length === 2) {
+    if ($('.clicked')[0].data-id === $('.clicked')[1].data.id) {
+      $('.clicked').each(function() {
+        $(this).addClass('matched');
+        $(this).removeClass('clicked');
+      });
+      if ($('.matched').length === 10) {
+        game over
+      }
+    } else {
+      $('.clicked').each(function() {
+        $(this).removeClass('clicked');
+        $(this + 'span').hide();
+      });
+    }
+  }
+}); -->

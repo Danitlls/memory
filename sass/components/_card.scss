@@ -1,0 +1,14 @@
+.card {
+  @include grid-column(2.4);
+  min-height: 200px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+  span {
+    display: none;
+  }
+}
